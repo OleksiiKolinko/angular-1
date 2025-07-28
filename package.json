@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:angular-1": "node dist/angular-1/server/server.mjs"
+    "serve:ssr:angular-1": "node dist/angular-1/server/server.mjs",
+    "deploy": "ng deploy --base-href=/angular-1/"
   },
   "prettier": {
     "overrides": [
@@ -40,6 +41,7 @@
     "@types/express": "^5.0.1",
     "@types/jasmine": "~5.1.0",
     "@types/node": "^20.17.19",
+    "angular-cli-ghpages": "^2.0.3",
     "jasmine-core": "~5.8.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
