@@ -87,6 +87,8 @@
               }
             ],
             "styles": [
+              "bulma/css/bulma.css",
+              "@fortawesome/fortawesome-free/css/all.css",
               "src/styles.scss"
             ]
           }
